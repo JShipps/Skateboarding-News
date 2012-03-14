@@ -1,0 +1,136 @@
+@font-face {
+	font-family: 'HybreaRgRegular';
+	src: url('../font/hybrea_rg-webfont-webfont.eot');
+	src: url('../font/hybrea_rg-webfont-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../font/hybrea_rg-webfont-webfont.woff') format('woff'),
+		 url('../font/hybrea_rg-webfont-webfont.ttf') format('truetype'),
+		 url('../font/hybrea_rg-webfont-webfont.svg#HybreaRgRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	background: #ee1133 url(../img/body_background_bubblegum.png) top left;
+	margin: 0
+}
+
+#appAdvertisements {
+	-webkit-box-shadow: 0 -2px 2px #ff98a7;
+	background: #fcccd3;
+	bottom: 0;
+	left: 0;
+	position: fixed;
+	width: 100%;
+	z-index: 9999
+}
+
+#appFauxBackground {
+	background: #ee1133 url(../img/body_overlay_bubblegum.png) top left repeat-x;
+	height: 400px;
+	margin: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 9997
+}
+
+#appContainer {
+	position: absolute;
+	top: 0;
+	height: 200px;
+	width: 100%;
+	z-index: 9998
+}
+
+#appHeader {
+	color: #fff;
+	font-family: 'HybreaRgRegular', auto;
+	font-size: 200%;
+	font-weight: bold;
+	padding: 20px 10px 10px 10px;
+	text-align: center;
+	text-shadow: #7d1122 1px 1px 2px
+}
+
+#appBody {
+	padding: 0 20px
+}
+
+#appFooter {
+	height: 50px
+}
+
+.rssHeader {
+	display: none
+}
+
+.rssBody ul {
+	list-style: none;
+	margin: 0;
+	padding: 0
+}
+
+.rssBody li {
+	margin: 0 0 20px 0;
+	padding: 10px
+}
+
+.rssBody a {
+	-webkit-border-radius: 5px;
+	background: rgba(255, 255, 255, .25);
+	color: #fff;
+	display: block;
+	padding: 10px
+}
+
+.rssRow h4, .rssRow p {
+	margin: 0;
+	padding: 0
+}
+
+.rssRow p:not(:empty) {
+	margin: 10px 0 0 0;
+	padding: 0
+}
+
+.rssRow {
+	-webkit-border-radius: 5px;
+	background: rgba(183, 93, 108, .15);
+	color: #d5d5d5
+}
+
+.rssRow div {
+	display: none
+}
+
+#appControls {
+	background: #61861e;
+	clear: both;
+	color: #fff;
+	font-size: 175%;
+	text-align: center
+}
+
+#wootPrevious {
+	float: left;
+	padding: 10px 0;
+	width: 50%
+}
+
+#wootNext {
+	float: right;
+	padding: 10px 0;
+	width: 50%
+}
+
+.couture {
+	-webkit-border-radius: 5px;
+	background: rgba(183, 93, 108, .15);
+	color: #fff;
+	display: block;
+	font-weight: bold;
+	margin: 10px 20px 20px 20px;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none
+}

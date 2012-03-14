@@ -1,0 +1,64 @@
+<!doctype html>
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width; 
+             initial-scale=1;
+             maximum-scale=1;
+             minimum-scale=1; 
+             user-scalable=no;">
+	<link href="css-js/app.css" rel="stylesheet" type="text/css"/>
+	<link href="css-js/style.css" rel="stylesheet" type="text/css"/>
+	<script type="text/javascript" src="css-js/jquery-1.5.1.js"></script>
+	<script type="text/javascript" src="css-js/jquery.zrssfeed.js"></script>
+	<script type="text/javascript" src="css-js/jquery.mobile-1.0a3.js"></script>
+	<script>
+
+		$(document).ready(function() {
+
+			$('#appBody').rssfeed('http://pipes.yahoo.com/pipes/pipe.run?_id=133f903e165f364f8a52040c990abaff&_render=rss', {
+				limit: 25
+			});
+
+		});
+
+	</script>
+
+</head>
+<body>
+
+	
+	<!-- <a href="http://www.jdoqocy.com/6k115cy63y5LRPQMTUULNMVMSRNT" target="_blank" onmouseover="window.status='http://www.yourbeautysystem.com/offer/default2.aspx';return true;" onmouseout="window.status=' ';return true;"><img id="appAdvertisements" src="img/dbg-ad-1.jpg" alt="" style="max-width: 100%" /></a> -->
+	<div id="appAdvertisements" style="z-index: 9999">
+		<script type="text/javascript">
+			var admob_vars = {
+				// manual_mode: true,
+				pubid: 'a14dbfb49a10562', // publisher id
+				bgcolor: 'fcccd3', // background color (hex)
+				text: 'ffffff', // font-color (hex)
+				test: false // test mode, set to false if non-test mode
+			};
+		</script>
+		<script type="text/javascript" src="http://mmv.admob.com/static/iphone/iadmob.js"></script>
+	</div>
+	<div id="appFauxBackground"></div>
+	<div id="appContainer">
+	
+		<div id="appHeader">Skateboarding News</div>
+		<div id="appBody"></div>
+		<div id="appFooter"></div>
+	
+	</div>
+
+	<!-- 
+	
+		Planned Features:
+		
+			* Pagination of tips
+			* Share via email or socal network
+	
+	-->
+
+</body>
+</html>
